@@ -1,0 +1,52 @@
+.social-bar {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  background: rgba(30, 30, 60, 0.6);
+  border-radius: 40px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  color: #fff;
+}
+
+.sidebar {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  background: rgba(30, 30, 60, 0.6);
+  border-radius: 40px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.sidebar-item {
+  color: #cfd9ff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sidebar-item span {
+  display: none;
+}
+
+/* Sidebar menu icons */
+.sidebar-item {
+  color: #cfd9ff;
+  font-size: 24px; /* ⬅ increase size */
+  cursor: pointer;
+}
+
+/* Social media icons */
+.social-bar svg {
+  font-size: 26px; /* ⬅ increase size */
+}
