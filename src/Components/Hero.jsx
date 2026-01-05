@@ -1,6 +1,5 @@
 import "../styles/hero.css";
 import PursuitName from "../assets/PursuitName.png";
-import Blackhole from "../assets/Blackhole.png";
 
 const Hero = () => {
   return (
